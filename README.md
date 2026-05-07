@@ -133,9 +133,3 @@ El simulador soporta:
 - Conservación de posiciones visuales de estados
 
 ---
-
----
-
-# Licencia
-
-MIT License
