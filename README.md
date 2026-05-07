@@ -1,5 +1,14 @@
 # Practica-5.--Software-Interactivo-para-Visualizar-Automatas
 
+## 👥 Autores
+
+- **Gustavo Sebastián Bonilla Ojeda** — 2025630175  
+- **Ximena Velázquez Mendoza** — 2024630176  
+- **Yoltic Isaí Velázquez Ramos** — 2025230228  
+
+📍 *ESCOM - Instituto Politécnico Nacional*  
+📅 *Fecha: 07 de mayo de 2026*  
+
 # Simulador de Autómatas Finitos en Python
 
 Simulador interactivo de autómatas finitos desarrollado en Python con Tkinter inspirado en JFLAP.
@@ -47,40 +56,6 @@ Incluye herramientas de conversión, minimización, simulación visual y exporta
 
 ---
 
-## Conversión entre autómatas
-
-- AFN-λ → AFND
-- AFND → AFD (Construcción de subconjuntos)
-
----
-
-## Minimización de AFD
-
-- Eliminación de estados inaccesibles
-- Detección de estados equivalentes
-- Comparación visual entre autómata original y minimizado
-
----
-
-## Conversión AFD → Expresión Regular
-
-Implementación del algoritmo GNFA mediante eliminación de estados.
-
----
-
-## Herramientas adicionales
-
-- Tabla de transiciones
-- Visualización de grafos
-- Operaciones de lenguaje:
-  - Prefijos
-  - Sufijos
-  - Subcadenas
-  - Cerradura positiva
-  - Cerradura de Kleene
-
----
-
 # Tecnologías utilizadas
 
 - Python 3
@@ -89,17 +64,6 @@ Implementación del algoritmo GNFA mediante eliminación de estados.
 - JSON
 - NetworkX
 - Matplotlib
-
----
-
-# Instalación
-
-## Clonar repositorio
-
-```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd TU_REPOSITORIO
-```
 
 ---
 
@@ -169,72 +133,6 @@ El simulador soporta:
 - Conservación de posiciones visuales de estados
 
 ---
-
-# Capturas
-
-## Editor visual
-
-<img width="700" alt="editor" src="docs/editor.png">
-
----
-
-## Simulación AFND
-
-<img width="700" alt="afnd" src="docs/afnd.png">
-
----
-
-## Minimización
-
-<img width="700" alt="min" src="docs/minimizacion.png">
-
----
-
-# Estructura del proyecto
-
-```text
-simulador_p4.py
-README.md
-docs/
-```
-
----
-
-# Funcionalidades implementadas
-
-- [x] AFD
-- [x] AFND
-- [x] AFN-λ
-- [x] Simulación visual
-- [x] λ-clausura
-- [x] Minimización
-- [x] Conversión AFND → AFD
-- [x] Conversión AFN-λ → AFND
-- [x] Exportación JFLAP
-- [x] Editor visual
-- [x] Drag & Drop
-- [x] Eliminación de estados
-- [x] Eliminación de transiciones
-- [x] Loops visuales
-- [x] Simulación animada
-
----
-
-# Posibles mejoras futuras
-
-- Zoom y desplazamiento
-- Undo / Redo
-- Curvas Bezier avanzadas
-- Simulación de PDA
-- Máquina de Turing
-- Exportación a imagen
-- Temas visuales
-
----
-
-# Autor
-
-Desarrollado como proyecto de Teoría de la Computación / Autómatas Finitos.
 
 ---
 
